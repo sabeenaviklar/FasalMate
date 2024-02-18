@@ -3,6 +3,7 @@ import Farm from "@/components/Farm";
 import Guide from "@/components/Guide";
 import Features from "@/components/Features";
 import GetApp from "@/components/GetApp";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
      <Guide/>
      <Features/>
      <GetApp/>
+     <Footer/>
  </>
   );
 }

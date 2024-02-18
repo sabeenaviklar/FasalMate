@@ -1,18 +1,23 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
+import { FOOTER_LINKS } from '@/constants';
+
+// components/Footer.js
+
 
 const Footer = () => {
   return (
-  <footer className="flexCenter mb-24">
-    <div className="padding-conatiner max-conatiner flex w-full flex-col gap-14">
-      <div className="flex flex-col items-start justify-center gap-[10%]">
+    <footer style={{
+      backgroundColor: '#333',
+      color: 'white',
+      padding: '10px',
+      textAlign: 'center',
+    }}>
+      <p>&copy; 2024 FasalMate. All rights reserved.</p>
+    </footer>
+  );
+};
 
-      </div>
-
-    </div>
 
 
-  </footer>
-  )
-}
-
-export default Footer
+export default Footer;
